@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: phase1-AR.aux
+The style file: apjbrief.bst
+Database file #1: bibdesk.bib
+Warning--empty journal in Goobar:2016
+Warning--empty journal in Oguri:2010
+You've used 9 entries,
+            2993 wiz_defined-function locations,
+            709 strings with 8285 characters,
+and the built_in function-call counts, 7820 in all, are:
+= -- 602
+> -- 872
+< -- 2
++ -- 346
+- -- 326
+* -- 818
+:= -- 1493
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 189
+chr.to.int$ -- 9
+cite$ -- 11
+duplicate$ -- 168
+empty$ -- 232
+format.name$ -- 357
+if$ -- 1390
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 31
+num.names$ -- 36
+pop$ -- 206
+preamble$ -- 1
+purify$ -- 189
+quote$ -- 0
+skip$ -- 142
+stack$ -- 0
+substring$ -- 166
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 81
+warning$ -- 2
+while$ -- 34
+width$ -- 0
+write$ -- 89
+(There were 2 warnings)

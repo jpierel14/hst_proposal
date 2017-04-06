@@ -1,3 +1,62 @@
+\textbf{Datasets:}
+
+There are 58 relevant datasets in the HST archive intersecting the coordinates of MACSJ1149 that 
+will be used in this work. The data are from the WFC3-IR and ACS-WFC instruments, and span 
+April 22, 2004-October 30, 2016 with HST Project IDs: 9722,\ 10493,\ 12068,\ 12197,\ 13504,\
+13459,\ 14041,\  13790,\ 14199, and 14208. NEED TO ADD HOW WE'RE GETTING THE DATA,
+HOW LONG IT'LL TAKE, ETC.
+
+\bigskip
+
+\noindent\textbf{Analysis:}
+
+First, as described in the scientific justification, previous photometry will be improved by using both
+the \textit{PythonPhot} and \textit{DOLPHOT} packages, which will minimize potential systematic errors
+in either method. In addition, foreground stars within the MACS11489 datasets described above
+will be used to define a variable point spread function (PSF) model, which will account for known 
+subtle variations due to telescope "breathing" (\textbf{CITE}).
+
+For lensed SNe, it is possible to classify the SN based on photometry and spectroscopy, and then
+identify a well-matched SN light curve template. In contrast to quasar time delay measurements that
+use a flexible function fitting method, the template method provides a strong informative prior for the 
+intrinsic light curve shape. In the case of SN Refsdal, the initial analysis concluded that a SN 1987A-like
+template fits the data best \citep{Kelly:2015c}, and we will confirm this with our own new analytical 
+software package being developed in this work. The SN 1987A template will be corrected to match the 
+redshift of SN Refsdal, measured to be $z=1.488\pm.001$\citep{Rodney:2016}, and then a Bayesian
+parameter estimation framework will be implemented to estimate the color corrections, time delays, and
+magnifications for all four SN Refsdal images. Previously ignored microlensing effects will be considered
+by analyzing achromatic deviations from the light curve templates in conjunction with a Bayesian prior 
+that describes microlensing probability as a function of time. Microlensing effects identified by the model 
+are corrected so that the inherent light curve can be compared to the template, and the correct template
+parameters derived. The model light curves are defined using
+\begin{equation}
+m(\lambda',t')=M(\lambda,t)+K(\lambda,t;\lambda')+C_\lambda,
+\end{equation}
+where the time t is the rest-frame age relative to the date of peak brightness in the rest-frame R band, 
+and is a free parameter in the model. The model apparent magnitude in an observed passband,
+$m(\lambda',t')$, is governed by a model absolute magnitude in a model passband at the model's rest-
+frame age, $M(\lambda,t)$, corrected to an observed passband with $K(\lambda,t;\lambda')$ 
+\citep{Strolger:2015}. Finally, a magnitude shift $C_\lambda$ is added as a separate free parameter
+for each photometric passband, which accounts for both cosmological dimming and any color difference
+between the model and SN Refsdal due to dust extinction or intrinsic color differences. Linear interpolation
+will be used to infer model magnitudes between observed points in the template light curves.
+
+To take into account the gravitational lensing effects, we will include six more free parameters that are
+applied as corrections to the observed data: time shifts $\delta t_i$, and achromatic magnitude
+shifts $\delta m_i$ that give the time delays and magnifications of the the Refsdal sources relative to
+a reference source. The model light curves are then simultaneously compared to all SN Refsdal sources
+to derive a likelihood distribution from each light curve template $T_k$, using:
+\begin{equation}
+p(D|T_k,\theta)=\prod\limits_i\frac{p_i(\theta)}{\sqrt{2\pi}\sigma_i}e^{-(m_{obs(t_i)}-m_k(\lambda_i,t_i))^2
+/(2\sigma^2_i)}.
+\end{equation}
+Here $\theta$ denotes the set of free parameters, and $p_i(\theta)$ are the Bayesian prior distributions. 
+In contrast with previous analysis done on SN Refsdal, a microlensing parameter will be added to the set 
+$\theta$, and the related Bayesian prior distribution will not be flat. In order to sample the likelihood distributions 
+defined by Equation (2) over the multidimensional parameter space, we will use the Markov Chain Monte Carlo
+ensemble sampling tools from the \textit{SNCosmo} software package \citep{Barbary:2014}.
+
+
 %\begin{tabular}{ccccc}
 %\centering
 %Start Date & Start MJD &Total Integration Time (s)&Instrument & HST Program ID\\

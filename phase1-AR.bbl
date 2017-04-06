@@ -1,29 +1,25 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{8}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Barbary(2014)}]{Barbary:2014}
+Barbary, K. 2014, sncosmo v0.4.2
 
 \bibitem[{{Dobler} \& {Keeton}(2006)}]{Dobler:2006}
 {Dobler}, G., \& {Keeton}, C.~R. 2006, \apj, 653, 1391
 
-\bibitem[{Goobar {et~al.}(2016)Goobar, Amanullah, Kulkarni, Nugent, Johansson,
-  Steidel, Law, Quimby, Blagorodnova, Brandeker, Cao, Cooray, Ferretti,
-  Fremling, Hangard, Kasliwal, Kupfer, Lunnan, Masci, Miller, Nayyeri, Neill,
-  Ofek, Papadogiannakis, Petrushevska, Ravi, Sollerman, Sullivan, Taddia,
-  Walters, Wilson, Yan, \& Yaron}]{Goobar:2016}
-Goobar, A., {et~al.} 2016, 1
+\bibitem[{{Kelly} {et~al.}(2015{\natexlab{a}}){Kelly}, {Brammer}, {Selsing},
+  {Foley}, {Hjorth}, {Rodney}, {Christensen}, {Strolger}, {Filippenko}, {Treu},
+  {Steidel}, {Strom}, {Riess}, {Zitrin}, {Schmidt}, {Bradac}, {Jha}, {Graham},
+  {McCully}, {Graur}, {Weiner}, \& {Silverman}}]{Kelly:2015c}
+{Kelly}, P.~L., {et~al.} 2015{\natexlab{a}}, ArXiv e-prints, arXiv:1512.09093
 
-\bibitem[{Jha {et~al.}(2007)Jha, Riess, \& Kirshner}]{Jha:2007}
-Jha, S., Riess, A.~G., \& Kirshner, R.~P. 2007, \apj, 659, 122
-
-\bibitem[{{Jones} {et~al.}(2015){Jones}, {Scolnic}, \& {Rodney}}]{Jones:2015}
-{Jones}, D.~O., {Scolnic}, D.~M., \& {Rodney}, S.~A. 2015, {PythonPhot: Simple
-  DAOPHOT-type photometry in Python}, Astrophysics Source Code Library
-
-\bibitem[{{Kelly} {et~al.}(2015){Kelly}, {Rodney}, {Treu}, {Foley}, {Brammer},
-  {Schmidt}, {Zitrin}, {Sonnenfeld}, {Strolger}, {Graur}, {Filippenko}, {Jha},
-  {Riess}, {Bradac}, {Weiner}, {Scolnic}, {Malkan}, {von der Linden}, {Trenti},
-  {Hjorth}, {Gavazzi}, {Fontana}, {Merten}, {McCully}, {Jones}, {Postman},
-  {Dressler}, {Patel}, {Cenko}, {Graham}, \& {Tucker}}]{Kelly:2015a}
-{Kelly}, P.~L., {et~al.} 2015, Science, 347, 1123
+\bibitem[{{Kelly} {et~al.}(2015{\natexlab{b}}){Kelly}, {Rodney}, {Treu},
+  {Foley}, {Brammer}, {Schmidt}, {Zitrin}, {Sonnenfeld}, {Strolger}, {Graur},
+  {Filippenko}, {Jha}, {Riess}, {Bradac}, {Weiner}, {Scolnic}, {Malkan}, {von
+  der Linden}, {Trenti}, {Hjorth}, {Gavazzi}, {Fontana}, {Merten}, {McCully},
+  {Jones}, {Postman}, {Dressler}, {Patel}, {Cenko}, {Graham}, \&
+  {Tucker}}]{Kelly:2015a}
+---. 2015{\natexlab{b}}, Science, 347, 1123
 
 \bibitem[{{Kelly} {et~al.}(2016){Kelly}, {Rodney}, {Treu}, {Strolger}, {Foley},
   {Jha}, {Selsing}, {Brammer}, {Brada{\v c}}, {Cenko}, {Graur}, {Filippenko},
@@ -40,13 +36,8 @@ Oguri, M., \& Marshall, P.~J. 2010, 2593, 2579
   {Zitrin}}]{Rodney:2016}
 {Rodney}, S.~A., {et~al.} 2016, ApJ, 820, 50
 
-\bibitem[{{Treu} {et~al.}(2013){Treu}, {Marshall}, {Cyr-Racine}, {Fassnacht},
-  {Keeton}, {Linder}, {Moustakas}, {Bradac}, {Buckley-Geer}, {Collett},
-  {Courbin}, {Dobler}, {Finley}, {Hjorth}, {Kochanek}, {Komatsu}, {Koopmans},
-  {Meylan}, {Natarajan}, {Oguri}, {Suyu}, {Tewes}, {Wong}, {Zabludoff},
-  {Zaritsky}, {Anguita}, {Brunner}, {Cabanac}, {Falco}, {Fritz}, {Seidel},
-  {Howell}, {Giocoli}, {Jackson}, {Lopez}, {Metcalf}, {Motta}, \&
-  {Verdugo}}]{Treu:2013}
-{Treu}, T., {et~al.} 2013, arXiv:1306.1272
+\bibitem[{{Strolger} {et~al.}(2015){Strolger}, {Dahlen}, {Rodney}, {Graur},
+  {Riess}, {McCully}, {Ravindranath}, {Mobasher}, \& {Shahady}}]{Strolger:2015}
+{Strolger}, L.-G., {et~al.} 2015, \apj, 813, 93
 
 \end{thebibliography}

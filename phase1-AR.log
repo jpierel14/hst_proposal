@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,38 +265,76 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks26
 \@floatcapt=\box40
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip 10pt \sbox \@tem
+pboxa {\small #1: #2}\ifdim \wd \@tempboxa >\hsize \small #1: #2\par \else \glo
+bal \@minipagefalse \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi \vskip 10p
+t.
+\c@ContinuedFloat=\count119
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count120
+\c@subtable=\count121
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\SC@BOXWD=\dimen160
-\SC@CAPWD=\dimen161
-\SC@tempdima=\dimen162
-\SC@tempdimb=\dimen163
-\c@SC@C=\count119
+\SC@BOXWD=\dimen167
+\SC@CAPWD=\dimen168
+\SC@tempdima=\dimen169
+\SC@tempdimb=\dimen170
+\c@SC@C=\count122
 \SC@BOX=\box41
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count120
+\c@tracingmulticols=\count123
 \mult@box=\box42
-\multicol@leftmargin=\dimen164
-\c@unbalance=\count121
-\c@collectmore=\count122
-\doublecol@number=\count123
-\multicoltolerance=\count124
-\multicolpretolerance=\count125
-\full@width=\dimen165
-\page@free=\dimen166
-\premulticols=\dimen167
-\postmulticols=\dimen168
+\multicol@leftmargin=\dimen171
+\c@unbalance=\count124
+\c@collectmore=\count125
+\doublecol@number=\count126
+\multicoltolerance=\count127
+\multicolpretolerance=\count128
+\full@width=\dimen172
+\page@free=\dimen173
+\premulticols=\dimen174
+\postmulticols=\dimen175
 \multicolsep=\skip55
 \multicolbaselineskip=\skip56
 \partial@page=\box43
 \last@line=\box44
-\maxbalancingoverflow=\dimen169
+\maxbalancingoverflow=\dimen176
 \mult@rightbox=\box45
 \mult@grightbox=\box46
 \mult@gfirstbox=\box47
@@ -318,14 +356,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
-\c@columnbadness=\count126
-\c@finalcolumnbadness=\count127
-\last@try=\dimen170
-\multicolovershoot=\dimen171
-\multicolundershoot=\dimen172
+\c@columnbadness=\count129
+\c@finalcolumnbadness=\count130
+\last@try=\dimen177
+\multicolovershoot=\dimen178
+\multicolundershoot=\dimen179
 \mult@nat@firstbox=\box66
 \colbreak@box=\box67
-\mc@col@check@num=\count128
+\mc@col@check@num=\count131
 ))
 (./phase1-AR.aux)
 \openout1 = `phase1-AR.aux'.
@@ -345,16 +383,16 @@ LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen173
+\scratchcounter=\count132
+\scratchdimen=\dimen180
 \scratchbox=\box68
-\nofMPsegments=\count130
-\nofMParguments=\count131
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen174
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen181
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
@@ -403,6 +441,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: sidecap package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
@@ -431,37 +473,60 @@ LaTeX Info: Redefining \selectfont on input line 126.
 File: FIG/refsdal_rodney.pdf Graphic file (type pdf)
 
 <use FIG/refsdal_rodney.pdf>
-Package pdftex.def Info: FIG/refsdal_rodney.pdf used on input line 16.
-(pdftex.def)             Requested size: 352.31624pt x 246.60858pt.
- [1
+Package pdftex.def Info: FIG/refsdal_rodney.pdf used on input line 27.
+(pdftex.def)             Requested size: 206.69333pt x 144.6716pt.
+ <FIG/lensed2.pdf, id=2, 222.8325pt x 319.1925pt>
+File: FIG/lensed2.pdf Graphic file (type pdf)
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./FIG/r
-efsdal_rodney.pdf>]
-<FIG/points_plot_2017.pdf, id=28, 722.7pt x 397.485pt>
+<use FIG/lensed2.pdf>
+Package pdftex.def Info: FIG/lensed2.pdf used on input line 28.
+(pdftex.def)             Requested size: 164.4171pt x 235.51688pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `.' on page 2 undefined on input line 69.
+
+[2 <./FIG/refsdal_rodney.pdf> <./FIG/lensed2.pdf>]
+<FIG/points_plot_2017.pdf, id=55, 722.7pt x 397.485pt>
 File: FIG/points_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/points_plot_2017.pdf>
-Package pdftex.def Info: FIG/points_plot_2017.pdf used on input line 65.
+Package pdftex.def Info: FIG/points_plot_2017.pdf used on input line 78.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
-<FIG/refs_plot_2017.pdf, id=29, 722.7pt x 397.485pt>
+<FIG/refs_plot_2017.pdf, id=56, 722.7pt x 397.485pt>
 File: FIG/refs_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/refs_plot_2017.pdf>
-Package pdftex.def Info: FIG/refs_plot_2017.pdf used on input line 66.
+Package pdftex.def Info: FIG/refs_plot_2017.pdf used on input line 79.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
-<FIG/spline_plot_2017.pdf, id=30, 722.7pt x 397.485pt>
+<FIG/spline_plot_2017.pdf, id=57, 722.7pt x 397.485pt>
 File: FIG/spline_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/spline_plot_2017.pdf>
-Package pdftex.def Info: FIG/spline_plot_2017.pdf used on input line 67.
+Package pdftex.def Info: FIG/spline_plot_2017.pdf used on input line 80.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
 
-LaTeX Warning: Float too large for page by 20.40207pt on input line 75.
+LaTeX Warning: Float too large for page by 12.77286pt on input line 88.
 
-) [2] [3 <./FIG/points_plot_2017.pdf> <./FIG/refs_plot_2017.pdf
+) (./describeArchival/analysis.tex
+Overfull \hbox (20.88446pt too wide) in paragraph at lines 3--8
+[]\OT1/cmr/m/n/12 There are 58 rel-e-vant datasets in the HST archive in-ter-se
+ct-ing the co-or-di-nates of MACSJ1149
+ []
+
+) (./phase1-AR.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[3] [4 <./FIG/points_plot_2017.pdf> <./FIG/refs_plot_2017.pdf
 
 pdfTeX warning: pdflatex (file ./FIG/refs_plot_2017.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -469,38 +534,25 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./FIG/spline_plot_2017.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] (./describeArchival/analysis.tex
-Overfull \hbox (20.88446pt too wide) in paragraph at lines 3--8
-[]\OT1/cmr/m/n/12 There are 58 rel-e-vant datasets in the HST archive in-ter-se
-ct-ing the co-or-di-nates of MACSJ1149
- []
-
-[4]) (./phase1-AR.bbl) [5] (./phase1-AR.aux) ) 
+>] (./phase1-AR.aux) ) 
 Here is how much of TeX's memory you used:
- 4853 strings out of 493014
- 64201 string characters out of 6133351
- 157441 words of memory out of 5000000
- 8298 multiletter control sequences out of 15000+600000
- 8609 words of font info for 31 fonts, out of 8000000 for 9000
+ 5951 strings out of 493014
+ 84297 string characters out of 6133351
+ 176534 words of memory out of 5000000
+ 9383 multiletter control sequences out of 15000+600000
+ 8309 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,35p,589b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb>
-Output written on phase1-AR.pdf (5 pages, 495601 bytes).
+ 38i,6n,43p,596b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on phase1-AR.pdf (4 pages, 486877 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 245 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

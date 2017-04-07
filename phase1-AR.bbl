@@ -1,8 +1,5 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{Barbary(2014)}]{Barbary:2014}
-Barbary, K. 2014, sncosmo v0.4.2
 
 \bibitem[{{Dobler} \& {Keeton}(2006)}]{Dobler:2006}
 {Dobler}, G., \& {Keeton}, C.~R. 2006, \apj, 653, 1391
@@ -14,19 +11,12 @@ Barbary, K. 2014, sncosmo v0.4.2
   Walters, Wilson, Yan, \& Yaron}]{Goobar:2016}
 Goobar, A., {et~al.} 2016, 1
 
-\bibitem[{{Kelly} {et~al.}(2015{\natexlab{a}}){Kelly}, {Brammer}, {Selsing},
-  {Foley}, {Hjorth}, {Rodney}, {Christensen}, {Strolger}, {Filippenko}, {Treu},
-  {Steidel}, {Strom}, {Riess}, {Zitrin}, {Schmidt}, {Bradac}, {Jha}, {Graham},
-  {McCully}, {Graur}, {Weiner}, \& {Silverman}}]{Kelly:2015c}
-{Kelly}, P.~L., {et~al.} 2015{\natexlab{a}}, ArXiv e-prints, arXiv:1512.09093
-
-\bibitem[{{Kelly} {et~al.}(2015{\natexlab{b}}){Kelly}, {Rodney}, {Treu},
-  {Foley}, {Brammer}, {Schmidt}, {Zitrin}, {Sonnenfeld}, {Strolger}, {Graur},
-  {Filippenko}, {Jha}, {Riess}, {Bradac}, {Weiner}, {Scolnic}, {Malkan}, {von
-  der Linden}, {Trenti}, {Hjorth}, {Gavazzi}, {Fontana}, {Merten}, {McCully},
-  {Jones}, {Postman}, {Dressler}, {Patel}, {Cenko}, {Graham}, \&
-  {Tucker}}]{Kelly:2015a}
----. 2015{\natexlab{b}}, Science, 347, 1123
+\bibitem[{{Kelly} {et~al.}(2015){Kelly}, {Rodney}, {Treu}, {Foley}, {Brammer},
+  {Schmidt}, {Zitrin}, {Sonnenfeld}, {Strolger}, {Graur}, {Filippenko}, {Jha},
+  {Riess}, {Bradac}, {Weiner}, {Scolnic}, {Malkan}, {von der Linden}, {Trenti},
+  {Hjorth}, {Gavazzi}, {Fontana}, {Merten}, {McCully}, {Jones}, {Postman},
+  {Dressler}, {Patel}, {Cenko}, {Graham}, \& {Tucker}}]{Kelly:2015a}
+{Kelly}, P.~L., {et~al.} 2015, Science, 347, 1123
 
 \bibitem[{{Kolatt} \& {Bartelmann}(1998)}]{Kolatt:1998}
 {Kolatt}, T.~S., \& {Bartelmann}, M. 1998, \mnras, 296, 763
@@ -42,9 +32,5 @@ Oguri, M., \& Marshall, P.~J. 2010, 2593, 2579
   {Molino}, {Riess}, {Schmidt}, {Selsing}, {Sharon}, {Treu}, {Weiner}, \&
   {Zitrin}}]{Rodney:2016}
 {Rodney}, S.~A., {et~al.} 2016, ApJ, 820, 50
-
-\bibitem[{{Strolger} {et~al.}(2015){Strolger}, {Dahlen}, {Rodney}, {Graur},
-  {Riess}, {McCully}, {Ravindranath}, {Mobasher}, \& {Shahady}}]{Strolger:2015}
-{Strolger}, L.-G., {et~al.} 2015, \apj, 813, 93
 
 \end{thebibliography}

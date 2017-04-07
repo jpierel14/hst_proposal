@@ -8,45 +8,45 @@ Warning--empty journal in Dressel:2012
 Warning--empty journal in Goobar:2016
 Warning--empty journal in More:2016
 Warning--empty journal in Oguri:2010
-You've used 12 entries,
+You've used 13 entries,
             2993 wiz_defined-function locations,
-            727 strings with 8326 characters,
-and the built_in function-call counts, 7921 in all, are:
-= -- 628
-> -- 773
-< -- 6
-+ -- 306
-- -- 284
-* -- 771
-:= -- 1521
-add.period$ -- 12
-call.type$ -- 12
-change.case$ -- 179
-chr.to.int$ -- 12
-cite$ -- 17
-duplicate$ -- 217
-empty$ -- 301
-format.name$ -- 320
-if$ -- 1428
+            732 strings with 8393 characters,
+and the built_in function-call counts, 8347 in all, are:
+= -- 668
+> -- 794
+< -- 7
++ -- 314
+- -- 290
+* -- 803
+:= -- 1597
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 185
+chr.to.int$ -- 13
+cite$ -- 18
+duplicate$ -- 236
+empty$ -- 329
+format.name$ -- 331
+if$ -- 1515
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 40
-num.names$ -- 48
-pop$ -- 198
+missing$ -- 12
+newline$ -- 43
+num.names$ -- 52
+pop$ -- 206
 preamble$ -- 1
-purify$ -- 179
+purify$ -- 185
 quote$ -- 0
-skip$ -- 183
+skip$ -- 201
 stack$ -- 0
-substring$ -- 203
+substring$ -- 227
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 117
 warning$ -- 5
-while$ -- 44
+while$ -- 48
 width$ -- 0
-write$ -- 112
+write$ -- 122
 (There were 5 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Barbary(2014)}]{Barbary:2014}
@@ -22,6 +22,9 @@ Goobar, A., {et~al.} 2016, 1
 
 \bibitem[{More {et~al.}(2016)More, Suyu, Oguri, More, \& Lee}]{More:2016}
 More, A., {et~al.} 2016
+
+\bibitem[{{Oguri} \& {Marshall}(2010)}]{Oguri:2010a}
+{Oguri}, M., \& {Marshall}, P.~J. 2010, \mnras, 405, 2579
 
 \bibitem[{Oguri \& Marshall(2010)}]{Oguri:2010}
 Oguri, M., \& Marshall, P.~J. 2010, 2593, 2579

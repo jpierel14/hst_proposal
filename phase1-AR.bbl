@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Barbary(2014)}]{Barbary:2014}
@@ -6,6 +6,13 @@ Barbary, K. 2014, sncosmo v0.4.2
 
 \bibitem[{{Dobler} \& {Keeton}(2006)}]{Dobler:2006}
 {Dobler}, G., \& {Keeton}, C.~R. 2006, \apj, 653, 1391
+
+\bibitem[{Goobar {et~al.}(2016)Goobar, Amanullah, Kulkarni, Nugent, Johansson,
+  Steidel, Law, Quimby, Blagorodnova, Brandeker, Cao, Cooray, Ferretti,
+  Fremling, Hangard, Kasliwal, Kupfer, Lunnan, Masci, Miller, Nayyeri, Neill,
+  Ofek, Papadogiannakis, Petrushevska, Ravi, Sollerman, Sullivan, Taddia,
+  Walters, Wilson, Yan, \& Yaron}]{Goobar:2016}
+Goobar, A., {et~al.} 2016, 1
 
 \bibitem[{{Kelly} {et~al.}(2015{\natexlab{a}}){Kelly}, {Brammer}, {Selsing},
   {Foley}, {Hjorth}, {Rodney}, {Christensen}, {Strolger}, {Filippenko}, {Treu},
@@ -21,11 +28,11 @@ Barbary, K. 2014, sncosmo v0.4.2
   {Tucker}}]{Kelly:2015a}
 ---. 2015{\natexlab{b}}, Science, 347, 1123
 
-\bibitem[{{Kelly} {et~al.}(2016){Kelly}, {Rodney}, {Treu}, {Strolger}, {Foley},
-  {Jha}, {Selsing}, {Brammer}, {Brada{\v c}}, {Cenko}, {Graur}, {Filippenko},
-  {Hjorth}, {McCully}, {Molino}, {Nonino}, {Riess}, {Schmidt}, {Tucker}, {von
-  der Linden}, {Weiner}, \& {Zitrin}}]{Kelly:2016}
----. 2016, ApJL, 819, L8
+\bibitem[{{Kolatt} \& {Bartelmann}(1998)}]{Kolatt:1998}
+{Kolatt}, T.~S., \& {Bartelmann}, M. 1998, \mnras, 296, 763
+
+\bibitem[{More {et~al.}(2016)More, Suyu, Oguri, More, \& Lee}]{More:2016}
+More, A., {et~al.} 2016
 
 \bibitem[{Oguri \& Marshall(2010)}]{Oguri:2010}
 Oguri, M., \& Marshall, P.~J. 2010, 2593, 2579

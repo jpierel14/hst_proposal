@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 APR 2017 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,8 +431,8 @@ LaTeX Info: Redefining \selectfont on input line 126.
 File: FIG/refsdal_rodney.pdf Graphic file (type pdf)
 
 <use FIG/refsdal_rodney.pdf>
-Package pdftex.def Info: FIG/refsdal_rodney.pdf used on input line 12.
-(pdftex.def)             Requested size: 305.33788pt x 213.73744pt.
+Package pdftex.def Info: FIG/refsdal_rodney.pdf used on input line 16.
+(pdftex.def)             Requested size: 352.31624pt x 246.60858pt.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./FIG/r
@@ -441,25 +441,25 @@ efsdal_rodney.pdf>]
 File: FIG/points_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/points_plot_2017.pdf>
-Package pdftex.def Info: FIG/points_plot_2017.pdf used on input line 94.
+Package pdftex.def Info: FIG/points_plot_2017.pdf used on input line 65.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
 <FIG/refs_plot_2017.pdf, id=29, 722.7pt x 397.485pt>
 File: FIG/refs_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/refs_plot_2017.pdf>
-Package pdftex.def Info: FIG/refs_plot_2017.pdf used on input line 95.
+Package pdftex.def Info: FIG/refs_plot_2017.pdf used on input line 66.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
 <FIG/spline_plot_2017.pdf, id=30, 722.7pt x 397.485pt>
 File: FIG/spline_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/spline_plot_2017.pdf>
-Package pdftex.def Info: FIG/spline_plot_2017.pdf used on input line 96.
+Package pdftex.def Info: FIG/spline_plot_2017.pdf used on input line 67.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
 
-LaTeX Warning: Float too large for page by 20.40207pt on input line 104.
+LaTeX Warning: Float too large for page by 20.40207pt on input line 75.
 
 ) [2] [3 <./FIG/points_plot_2017.pdf> <./FIG/refs_plot_2017.pdf
 
@@ -477,10 +477,10 @@ ct-ing the co-or-di-nates of MACSJ1149
 
 [4]) (./phase1-AR.bbl) [5] (./phase1-AR.aux) ) 
 Here is how much of TeX's memory you used:
- 4847 strings out of 493014
- 64090 string characters out of 6133351
- 157273 words of memory out of 5000000
- 8292 multiletter control sequences out of 15000+600000
+ 4853 strings out of 493014
+ 64201 string characters out of 6133351
+ 157441 words of memory out of 5000000
+ 8298 multiletter control sequences out of 15000+600000
  8609 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,35p,589b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -497,7 +497,7 @@ pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on phase1-AR.pdf (5 pages, 495488 bytes).
+Output written on phase1-AR.pdf (5 pages, 495601 bytes).
 PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream

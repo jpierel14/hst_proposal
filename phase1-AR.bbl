@@ -1,17 +1,11 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Barbary(2014)}]{Barbary:2014}
 Barbary, K. 2014, sncosmo v0.4.2
 
-\bibitem[{Cox \& Niemi(2011)}]{Cox:2011}
-Cox, C., \& Niemi, S.-m. 2011, STScI ISR TEL, 2011
-
 \bibitem[{{Dobler} \& {Keeton}(2006)}]{Dobler:2006}
 {Dobler}, G., \& {Keeton}, C.~R. 2006, \apj, 653, 1391
-
-\bibitem[{Dressel(2012)}]{Dressel:2012}
-Dressel, L. 2012, STScI ISR TEL, 2012
 
 \bibitem[{Goobar {et~al.}(2016)Goobar, Amanullah, Kulkarni, Nugent, Johansson,
   Steidel, Law, Quimby, Blagorodnova, Brandeker, Cao, Cooray, Ferretti,

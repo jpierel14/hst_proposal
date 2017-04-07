@@ -1,0 +1,36 @@
+The first stage of this project is to produce an open-source software
+package called Supernova Time Delays (SNTD).  There are currently two
+software packages that form the basis of this product: Python Curve
+Shifting (PyCS; \citealt{Tewes:2013a}) used for quasars, and Supernova
+Cosmology (SNCosmo; \citep{Barbary:2014}). This will proceed in three
+steps: 1) Integrate SNCosmo and PyCS, giving researchers a tool that
+can model SN light curve data with the abilities present in either
+software package; 2) Extend and optimize the lensing and microlensing
+algorithm present in PyCS for SNe; 3) Simulate a large number of
+multiply-imaged SN light curves using SNCosmo and test the ability of
+SNTD to simultaneously determine SN and lensing parameters. This work
+will be done primarily by graduate student PI Roberts-Pierel, under
+the guidance of Co-I Rodney at USC.  We anticipate this will require
+4-6 months of full time effort from the PI.  
+
+In parallel with the software development, we will improve the
+photometry of the two multiply-imaged SNe (Refsdal and iPTF16geu) by
+1) reprocessing the HST images using the most up-to-date AstroDrizzle
+software; 2) developing new time-variable PSF models, based on stellar
+sources within each image; and 3) deriving new photometric time
+series, using multiple photometry packages to extract photometry from
+both the template-subtracted difference images and directly from the
+FLT files. Although SN Refsdal appeared in the Hubble Frontier Fields,
+for this work it is necessary to reprocess the data separately from
+the official HFF products, because we need to break it up into
+separate epochs.  This component will require 4-6 months of part-time
+work from the two Co-I's, supplemented by additional effort from the
+grad student PI.
+
+For the conclusion of this project, we will use the new SNTD package
+to measure improved gravitational lensing parameters for SN Refsdal
+and iPTF16geu.  The software is being developed as an open-source
+project, and is already publicly accessible on github
+(\url{https://github.com/jpierel14/sntd}).  We anticipate that the
+SNTD package and the results of the new lensing analyses will be
+separately published within 18 months of the start of this project.

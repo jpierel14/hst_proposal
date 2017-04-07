@@ -2,50 +2,51 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: phase1-AR.aux
 The style file: apjbrief.bst
-Database file #1: bibdesk.bib
-Warning--I didn't find a database entry for "."
+Database file #1: bibs/bibdesk.bib
+Warning--empty journal in Cox:2011
+Warning--empty journal in Dressel:2012
 Warning--empty journal in Goobar:2016
 Warning--empty journal in More:2016
 Warning--empty journal in Oguri:2010
-You've used 7 entries,
+You've used 12 entries,
             2993 wiz_defined-function locations,
-            698 strings with 7018 characters,
-and the built_in function-call counts, 5331 in all, are:
-= -- 419
-> -- 547
-< -- 3
-+ -- 216
-- -- 202
-* -- 538
-:= -- 1012
-add.period$ -- 7
-call.type$ -- 7
-change.case$ -- 122
-chr.to.int$ -- 7
-cite$ -- 10
-duplicate$ -- 132
-empty$ -- 185
-format.name$ -- 229
-if$ -- 962
+            727 strings with 8326 characters,
+and the built_in function-call counts, 7921 in all, are:
+= -- 628
+> -- 773
+< -- 6
++ -- 306
+- -- 284
+* -- 771
+:= -- 1521
+add.period$ -- 12
+call.type$ -- 12
+change.case$ -- 179
+chr.to.int$ -- 12
+cite$ -- 17
+duplicate$ -- 217
+empty$ -- 301
+format.name$ -- 320
+if$ -- 1428
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 25
-num.names$ -- 28
-pop$ -- 137
+missing$ -- 11
+newline$ -- 40
+num.names$ -- 48
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 122
+purify$ -- 179
 quote$ -- 0
-skip$ -- 113
+skip$ -- 183
 stack$ -- 0
-substring$ -- 137
+substring$ -- 203
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 63
-warning$ -- 3
-while$ -- 27
+type$ -- 108
+warning$ -- 5
+while$ -- 44
 width$ -- 0
-write$ -- 68
-(There were 4 warnings)
+write$ -- 112
+(There were 5 warnings)

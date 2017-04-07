@@ -1,11 +1,103 @@
 \textbf{Datasets:}
 
-There are 58 relevant datasets in the HST archive intersecting the coordinates of MACSJ1149 that 
-will be used in this work. The data are from the WFC3-IR and ACS-WFC instruments, and span 
-April 22, 2004-October 30, 2016 with HST Project IDs: 9722,\ 10493,\ 12068,\ 12197,\ 13504,\
-13459,\ 14041,\  13790,\ 14199, and 14208. NEED TO ADD HOW WE'RE GETTING THE DATA,
-HOW LONG IT'LL TAKE, ETC.
+There are 64 relevant datasets in the HST archive that will be used in this work: 58 
+intersecting the coordinates of MACSJ1149, and 8 intersecting the coordinates of SN iPTF16geu.
+will be used in this work. The data intersecting MACSJ1149 are from the WFC3-IR and 
+ACS-WFC instruments, and span April 22, 2004-October 30, 2016 with HST Project IDs: 9722,\ 
+10493,\ 12068,\ 12197,\ 13504,\ 13459,\ 14041,\  13790,\ 14199, and 14208. The data intersecting 
+SN iPTF16geu are from the WFC3-IR instrument, and span October 20-November 17, 2016 with HST
+Project ID 14862.
+
+The required HST datasets amount to a relatively small volume of data.
+All datasets will be requested from the archive at once, at the start
+of the project. We will start with the FLT files, and will process
+them through a modified version of the HST data processing pipeline
+that was originally developed for the CANDELS and CLASH SN surveys
+\citep{Rodney:2014}.  This pipeline uses a custom processing sequence
+with AstroDrizzle and TweakReg to segregate the data into epochs,
+combine each epoch of HST imaging exposures, register them to a common
+co ordinate system, and generate difference images suitable for SN
+detection and photometric measurements. This pipeline was updated for
+use in SN searches related to the Frontier Fields, and is now publicly
+available (https://github.com/srodney/sndrizpipe). 
+
+This pipeline will be revised and improved again for this work, adding
+additional steps to remove persistence artifacts that might impact the
+photometry of the SN targets and/or the foreground stars that will be
+used to define a time-varying PSF model. For the initial measurement
+of the time delays of SN Refsdal, special data processing steps were
+required to address contamination of the SN by diffraction spikes from
+a 15th-magnitude star in the foreground \citep{Rodney:2016}.  Revision
+and improvement of this contamination removal will be a critical step
+for increasing the precision of the photometry for SN Refsdal.
+
+All data processing will be executed on the University of South
+Carolina research computing clusters (\url{http://rci.cec.sc.edu/}).
 
 
+%\begin{tabular}{ccccc}
+%\centering
+%Start Date & Start MJD &Total Integration Time (s)&Instrument & HST Program ID\\
+%\hline
+%\hline
+%2004 Apr 22.6&53117.6&63630&ACS&9722\\
+%2006 May 25.5&53880.5&15288&ACS&10493\\
+%2010 Dec 04.9&55534.9&14462&ACS&12068\\
+%2010 Dec 05.0&55535.0&10058.7&WFC3&12068\\
+%2011 Jan 16.0&55577.0&14532&ACS&12068\\
+%2011 Jan 16.0&55577.0&10058.7&WFC3&12068\\
+%2011 Jan 30.6&55591.6&14462&ACS&12068\\
+%2011 Jan 30.7&55591.7&10058.7&WFC3&12068\\
+%2011 Feb 13.3&55605.3&14329&ACS&12068\\
+%2011 Feb 13.3&55605.3&64691&WFC3&12068\\
+%2011 Feb 27.0&55619.0&14182&ACS&12068\\
+%2011 Feb 27.1&55619.1&9758.7&WFC3&12068\\
+%2011 Feb 27.5&55619.5&13916&ACS&12068\\
+%2011 Feb 27.6&55619.6&28386.8&WFC3&12068\\
+%2011 Mar 09.8&55629.8&14595&ACS&12068\\
+%2011 Mar 09.8&55629.8&10058.67676&WFC3&12068\\
+%2012 Feb 07.9&55964.9&22387.7&WFC3&12197\\
+%2013 Nov 02.2&56598.2&20632.9&WFC3&13504\\
+%2013 Nov 12.8&56608.8&309120&WFC3&13389\\
+%2014 Feb 23.4&56711.4&71728.7&WFC3&13459\\
+%2014 Apr 14.7&56761.7&36722&ACS&13504\\
+%2014 Nov 03.1&56964.1&51234.8&WFC3&13459\\
+%2014 Nov 11.0&56972.0&20693.9&WFC3&13459\\
+%2014 Nov 20.0&56981.0&20847&WFC3&13504\\
+%2014 Nov 20.8&56981.8&190423&WFC3&13504\\
+%2014 Nov 24.1&56985.1&65170&WFC3&14041\\
+%2014 Nov 29.9&56990.9&55623&WFC3&13790\\
+%2014 Dec 11.8&57002.8&154329&WFC3&13504\\
+%2014 Dec 22.9&57013.9&74312&WFC3&13790\\
+%2014 Dec 23.7&57014.7&10232&WFC3&14041\\
+%2014 Dec 23.8&57014.8&88988&WFC3&13504\\
+%2014 Dec 25.6&57016.6&51161&WFC3&14041\\
+%2014 Dec 26.7&57017.7&44494&WFC3&13504\\
+%2014 Dec 27.6&57018.6&92091&WFC3&14041\\
+%2014 Dec 29.5&57020.5&44494&WFC3&13504\\
+%2014 Dec 29.7&57020.7&71626&WFC3&14041\\
+%2015 Jan 01.7&57023.7&44494&WFC3&13504\\
+%2015 Jan 02.7&57024.7&20465&WFC3&14041\\
+%2015 Jan 03.4&57025.4&44494&WFC3&13504\\
+%2015 Jan 03.7&57025.7&40929&WFC3&14041\\
+%2015 Jan 04.4&57026.4&44494&WFC3&13504\\
+%2015 Jan 04.8&57026.8&20465&WFC3&14041\\
+%2015 Jan 05.7&57027.7&65341&WFC3&13504\\
+%2015 Jan 11.9&57033.9&86234&WFC3&13790\\
+%2015 Apr 19.4&57131.4&68068&ACS&13504\\
+%2015 Apr 20.1&57132.1&9106&WFC3&13790\\
+%2015 Apr 20.5&57132.5&748076&ACS&13504\\
+%2015 May 07.0&57149.0&9106&WFC3&13790\\
+%2015 May 07.4&57149.4&314090&ACS&13504\\
+%2015 May 26.3&57168.3&57999&WFC3&13790\\
+%2015 Oct 30.8&57325.8&144163&WFC3&14199\\
+%2016 May 16.3&57524.3&32850&WFC3&14208\\
+%2016 May 16.5&57524.5&28964&WFC3&14199\\
+%2016 May 23.3&57531.3&9896&WFC3&14208\\
+%2016 May 23.4&57531.4&14604&ACS&14208\\
+%2016 May 24.0&57532.0&183128&WFC3&14199\\
+%2016 Oct 30.2&57691.2&&9670&WFC3&14199\\
+%\end{tabular} 
+%WFC=43, ACS=14
 
 

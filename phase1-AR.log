@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2017 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,29 +596,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex (file ./FIG/lensed3.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->] <FIG/points_plot_2017.pdf, id=105, 722.7pt x 397.485pt>
+>] <FIG/points_plot_2017.pdf, id=112, 722.7pt x 397.485pt>
 File: FIG/points_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/points_plot_2017.pdf>
-Package pdftex.def Info: FIG/points_plot_2017.pdf used on input line 82.
+Package pdftex.def Info: FIG/points_plot_2017.pdf used on input line 84.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
-<FIG/refs_plot_2017.pdf, id=106, 722.7pt x 397.485pt>
+<FIG/refs_plot_2017.pdf, id=113, 722.7pt x 397.485pt>
 File: FIG/refs_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/refs_plot_2017.pdf>
-Package pdftex.def Info: FIG/refs_plot_2017.pdf used on input line 83.
+Package pdftex.def Info: FIG/refs_plot_2017.pdf used on input line 85.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
-<FIG/spline_plot_2017.pdf, id=107, 722.7pt x 397.485pt>
+<FIG/spline_plot_2017.pdf, id=114, 722.7pt x 397.485pt>
 File: FIG/spline_plot_2017.pdf Graphic file (type pdf)
 
 <use FIG/spline_plot_2017.pdf>
-Package pdftex.def Info: FIG/spline_plot_2017.pdf used on input line 84.
+Package pdftex.def Info: FIG/spline_plot_2017.pdf used on input line 86.
 (pdftex.def)             Requested size: 328.82706pt x 180.85596pt.
 
 
-LaTeX Warning: Float too large for page by 12.77286pt on input line 92.
+LaTeX Warning: Float too large for page by 12.77286pt on input line 94.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -646,11 +646,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
 Here is how much of TeX's memory you used:
  9456 strings out of 493014
  137924 string characters out of 6133351
- 254021 words of memory out of 5000000
+ 255021 words of memory out of 5000000
  12837 multiletter control sequences out of 15000+600000
  8478 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,43p,614b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,43p,754b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -658,10 +658,10 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on phase1-AR.pdf (6 pages, 347209 bytes).
+Output written on phase1-AR.pdf (6 pages, 348414 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
+ 341 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
